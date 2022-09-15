@@ -1,0 +1,45 @@
+<table class='table table-hover'>
+<thead>
+
+    <tr>
+    <th>Prekes pavadinimas</th>    
+<th>Vardas</th>
+<th> Pavarde</th>
+<th>Adresas </th>
+<th> Telefonas</th>
+<th> El.Pastas</th>
+
+
+
+
+
+    </tr>
+</thead>
+
+<tbody>
+{{#each pirkiniai}}
+<tr>
+    <td>{{this.preke}}</td>
+<td>{{this.name}}</td>
+<td>{{this.surname}}</td>
+<td>{{this.address}}</td>
+<td>{{this.phone}}</td>
+<td>{{this.email}}</td>
+<td><a href="/delete/{{@key}}" class="btn btn-danger ">Istrinti</a></td>
+
+
+
+
+</tr>
+{{/each}}
+</tbody>
+
+
+</table>
+
+
+<div class="add">
+
+   <a href="/" class="btn btn-success ">Prideti</a> 
+</div>
+

@@ -1,0 +1,45 @@
+.tekstas {
+    text-align: center;
+}
+
+
+.visas{
+    display: flex;
+    justify-content: center;
+}
+
+.style_lova{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    
+}
+
+
+
+.style_stalas{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+
+.style_kede{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+
+
+
+.lova{
+    width: 200px;
+    height: 200px;
+}
